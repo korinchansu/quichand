@@ -1,7 +1,6 @@
--module(quichd).
+-module(quichand_serde_initial_packet).
 -export([parse_quic_initial_packet/1, encode_quic_initial_packet/1]).
 -export_type([initial_packet/0]).
-
 
 -record(initial_packet, {
     packet_type,
